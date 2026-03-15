@@ -263,13 +263,18 @@ function App() {
     return (
       <div className="app">
         <header className="header">
-          <h1>Cofounder Buddy</h1>
+          <span className="header-logo-dot" />
+          <h1>GOAT Co‑Founder</h1>
+          <span className="header-tagline">AI agents you hire with x402</span>
         </header>
 
         <div className="picker-container">
           <div className="picker-welcome">
-            <h2>Choose your agent</h2>
-            <p>Each agent specializes in a different part of the cofounder workflow. Pick one to get started — payment via x402 goes directly to the agent.</p>
+            <h2>Spin up a co‑founder team in one click.</h2>
+            <p>
+              Select a specialized agent to scout prospects, rank opportunities, or craft outreach —
+              each one gets paid trustlessly on the GOAT Network via x402 micropayments.
+            </p>
           </div>
           <div className="agent-cards">
             {SUBAGENTS.map((agent) => (
