@@ -2,6 +2,10 @@
 
 An AI-powered marketing platform where a "Co-Founder" agent orchestrates a team of specialized sub-agents to handle end-to-end marketing campaigns. Users interact through a web app or Telegram, and the system autonomously scouts prospects, develops strategies, generates content, and delegates execution to external marketing agents — paying them via x402 micropayments on-chain. Think of it as an AI marketing team you can hire with a single prompt.
 
+## UI
+
+![Landing Screen](public/landing_page.png)
+
 ## Architecture
 
 ![Architecture Diagram](public/image.png)
